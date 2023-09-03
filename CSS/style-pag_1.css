@@ -1,0 +1,133 @@
+:root{
+    --text-color: #FFFF;
+    --text-color-inverse: #000;
+    --theme-color: #20212A;
+    --theme-color-2: #292b38;  
+    --theme-color-3: #2e324c;;  
+    --secundary-color: #ccc1a5;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+body{
+    background-color: var(--theme-color);
+}
+
+.boton{
+    background-color: #2e324c;
+    border-radius: 20px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.boton:hover{
+    background-color: var(--text-color);
+}
+
+.container_expo{
+    margin: auto;
+    width: 50%;
+}
+
+.container_fotos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 0px;
+}
+
+.foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+    align-items: center;
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    background-color: var(--theme-color-3);
+}
+
+.container_fotos .foto1{
+    height: 300px;
+    width: 300px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.container_fotos .foto2{
+    height: 300px;
+    width: 200px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.container_fotos .foto3{
+    height: 300px;
+    width: 300px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.container_fotos .foto4{
+    height: 300px;
+    width: 300px;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.container_fotos .container_texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .foto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10%;
+        align-items: center;
+        height: 500px;
+        width: auto;
+        border-radius: 50px;
+        background-color: var(--theme-color-3);
+    }
+
+    .container_fotos .foto1{
+        height: 300px;
+        width: 300px;
+        border-radius: 40px 40px 0px 0px;
+    }
+    
+    .container_fotos .foto2{
+        height: 300px;
+        width: 200px;
+        padding-top: 20px;
+        border-radius: 40px 40px 0px 0px;
+    }
+    
+    .container_fotos .foto3{
+        height: 300px;
+        width: 300px;
+        border-radius: 40px 40px 0px 0px;
+    }
+    
+    .container_fotos .foto4{
+        height: 300px;
+        width: 300px;
+        border-radius: 40px 40px 0px 0px;
+    }
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/login32.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Convertidor</title>
+</head>
+<body>    
+    <div class="formulario_conteiner">
+        <h2>Convertidor de Divisas</h2>
+
+        <div class="conteiner_cambio">
+            <select name="unidad1" id="unidad1">
+                <option value="Dolar">Dolar</option>
+                <option value="Euro">Euro</option>
+                <option value="Peso">Pesos Argentinos</option>
+            </select>=>
+            <select name="unidad2" id="unidad2">
+               <option value="Dolar">Dolar</option>
+               <option value="Euro">Euro</option>
+               <option value="Peso">Pesos Argentinos</option>
+           </select>
+           <input type="number" placeholder="Cantidad" id="cantidad1">
+          </div>
+
+        <div class="resultado_conteiner" id="resultado1"></div>
+
+        <h2 class="medidas">Convertidor de Medidas</h2>
+        <div class="conteiner_cambio">
+            <select name="unidad3" id="unidad3">
+                <option value="Kilometros">Kilometros</option>
+                <option value="Centimetros">Centimetros</option>
+                <option value="Milimetros">Milimetros</option>
+            </select>=>
+            <select name="unidad4" id="unidad4">
+               <option value="Kilometros">Kilometros</option>
+               <option value="Centimetros">Centimetros</option>
+               <option value="Milimetros">Milimetros</option>
+           </select>
+           <input type="number" placeholder="Cantidad" id="cantidad2">
+          </div>
+
+        <div class="resultado_conteiner" id="resultado2"></div>
+
+    </div>
+    <script src="./JS/datos3.js"></script>
+</body>
+</html>

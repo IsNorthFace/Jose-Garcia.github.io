@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles-portfolio.css">
+    <link rel="icon" href="./Icons/Logo-Personal.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <title>José Garcia - Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <button class="abrir-menu" id="link7"><img src="./Icons/menu-2.svg" alt="menu" class="icon-menu"></button>
+
+        <nav class="nav_header" id="nav">
+            <button class="cerrar-menu" id="link6"><img src="./Icons/x.svg" alt="close" class="icon-menu"></button>
+            <ul class="nav-list">
+                <a href="#perfil" class="nav-link" id="link1">Perfil</a>
+                <a href="#SobreMi" class="nav-link" id="link1">Sobre mí</a>
+                <a href="#habilidades" class="nav-link" id="link4">Hablilidades</a>
+                <a href="#proyectos" class="nav-link" id="link3">Proyectos</a>
+                <a href="#contacto" class="nav-link" id="link5">Contacto</a>
+            </ul>
+        </nav>
+
+        <script src="./JS/menu-hamburguesa.js"></script>
+
+        <script src="./JS/header.js"></script>
+    </header>
+
+    <div class="container_diferents-sections">
+
+        <section class="section_logo-nombre" id="perfil">
+           <div class="container_logo">
+             <img src="./Images/Logo-Blanco.png" alt="logo-blanco">
+           </div>
+
+           <div class="container_nombre">
+                <h1>José Garcia</h1>
+                <span>Desarrollador/Diseñador</span>
+           </div>
+
+           <div class="container--social-media">
+                <a href="https://github.com/IsNorthFace"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#FFF" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a>
+                <a href="https://www.linkedin.com/in/josé-garcia-96741b28b"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#FFF" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg></a>
+                <a href="#contacto"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#FFF" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg></a>
+           </div>
+        </section>
+
+        <section class="section_sobre-mi" id="SobreMi">
+            <div class="container_info">
+                <div class="foto">
+                    <img src="./Images/Foto-Perfil-1.png" alt="Foto-Perfil">
+                </div>
+        
+                <div class="container_descripcion">
+                    <h2>Sobre mí</h2>
+                    <p>Me llamo <span>José Garcia</span>, tengo 18 años, soy de Buenos Aires, Argentina.</p>
+                    <p>Me centro en el <span>desarrollo</span> de páginas web, orientado más que todo en la rama del FrontEnd, también me fascina el diseño de interfaces Desing UI/UX en Figma.</p>
+                    <p>Además de realizar el código para las páginas web y sus prototipos funcionales, me gusta ilustrar Fondos/Dibujos/Logos en <span>Adobe Illustrator</span>, cuando ilustro o diseño encuentro inspiración en la <span>música</span> y el <span class="si">estilo urbano</span> tan característico de <span>Buenos Aires</span>.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section_habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+        
+            <div class="container_grid-skills">
+                <div class="container_skills" data-aos="fade-right">
+                    <img src="./Icons/Icono-HTML.png" alt="icon-HTML" class="icon-skill-1">
+                </div>
+                
+                <div class="container_skills" data-aos="fade-left">
+                    <img src="./Icons/Icono-CSS.png" alt="icon-CSS" alt="img-CSS" class="icon-skill">
+                </div>
+
+                <div class="container_skills" data-aos="fade-right">
+                    <img src="./Icons/Icono-PHP.png" alt="icon-Ai" class="icon-skill">
+                </div>
+                
+                <div class="container_skills" data-aos="fade-left">
+                    <img src="./Icons/Icono-JS.png" alt="icon-js" alt="img-JS" class="icon-skill">
+                </div>
+                
+                <div class="container_skills" data-aos="fade-right">
+                    <img src="./Icons/Icono-Figma.png" alt="icon-figma" alt="img-figma" class="icon-skill">
+                </div>
+                
+                <div class="container_skills" data-aos="fade-left">
+                    <img src="./Icons/Icono-Ai.png" alt="icon-Ai" class="icon-skill">
+                </div>
+            </div>
+        </section>
+
+        <section class="section_proyectos" id="proyectos">
+            <h2>Proyectos</h2>
+        
+            <div class="container_proyectos">
+                <a href="./Proyecto-Final_Slot/index-slot.html">
+                    <div class="proyectos" data-aos="fade-right">
+                        <img src="./Proyecto-Imagenes/si1.png" alt="foto-Slot">
+                        <div class="container_text">
+                            <h5>Proyecto Maquina Traga Monedas</h5>
+                            <div class="container_icons-work" data-aos="fade-up">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px" baseProfile="basic"><path fill="#f7df1e" d="M6,42V6h36v36H6z"/><path fill="#000001" d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"/></svg>
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{fill:#330000;}
+                                        .st1{fill:#FF9A00;}
+                                    </style>
+                                    <g id="Illustrator" transform="translate(2303 308)">
+                                        <path id="_16" class="st0" d="M-2199.2-270.6h292.3c36.7,0,66.4,29.7,66.4,66.4V88.2c0,36.7-29.7,66.4-66.4,66.4h-292.3
+                                            c-36.7,0-66.4-29.7-66.4-66.4v-292.3C-2265.6-240.9-2235.9-270.6-2199.2-270.6z"/>
+                                        <path id="_30" class="st1" d="M-2058.3-11.8h-64.9l-13.3,43.3c-0.4,1.5-1.8,2.6-3.4,2.5h-32.9c-1.9,0-2.5-1-2-3.1l56-161.8
+                                            c0.6-1.7,1.1-3.6,1.7-5.8c0.8-3.1,1.1-6.4,1.1-9.6c-0.1-0.9,0.5-1.8,1.5-2c0.2,0,0.3,0,0.5,0h44.7c1.3,0,2.1,0.5,2.2,1.4l63.9,178
+                                            c0.6,1.9,0,2.8-1.7,2.8h-36.5c-1.3,0.1-2.5-0.7-2.8-2L-2058.3-11.8z M-2113.4-41.7h47.6c-1.1-3.7-5-12.4-6.5-17.1
+                                            s-3.6-8.4-5.2-13.7c-1.7-5.3-3.4-10.7-5.1-16c-1.7-5.3-3.2-10.5-4.7-15.5c-1.4-5-2.7-9.5-3.8-13.6h-0.3c-1.6,7.6-3.6,15.1-5.9,22.5
+                                            c-2.6,8.4-5.3,17-8,25.8C-2108-60.4-2110.8-49.1-2113.4-41.7L-2113.4-41.7z"/>
+                                        <path id="_31" class="st1" d="M-1965-118.8c-5.8,0.2-11.4-2-15.5-6.2c-4-4.3-6.1-10.1-5.9-16c-0.2-5.9,2.1-11.5,6.3-15.6
+                                            c4.2-4,9.8-6.2,15.6-6c5.9-0.3,11.7,1.9,15.9,6c3.9,4.2,6,9.8,5.8,15.6c0.2,5.9-1.9,11.7-6,16C-1953.1-120.8-1959-118.5-1965-118.8
+                                            z M-1983.2,31.3V-97.1c0-1.7,0.7-2.5,2.2-2.5h31.9c1.5,0,2.2,0.8,2.2,2.5V31.3c0,1.9-0.7,2.8-2.2,2.8h-31.6
+                                            C-1982.3,34.1-1983.2,33.2-1983.2,31.3z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h5>Ver más...</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./Proyecto-Divisas/index.html">
+                    <div class="proyectos" data-aos="fade-left">
+                        <img src="./Proyecto-Imagenes/divisas1.png" alt="foto-Divisas">
+                        <div class="container_text">
+                            <h5>Proyecto Calculadora de Divisas</h5>
+                            <div class="container_icons-work" data-aos="fade-up">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px" baseProfile="basic"><path fill="#f7df1e" d="M6,42V6h36v36H6z"/><path fill="#000001" d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"/></svg>
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{fill:#330000;}
+                                        .st1{fill:#FF9A00;}
+                                    </style>
+                                    <g id="Illustrator" transform="translate(2303 308)">
+                                        <path id="_16" class="st0" d="M-2199.2-270.6h292.3c36.7,0,66.4,29.7,66.4,66.4V88.2c0,36.7-29.7,66.4-66.4,66.4h-292.3
+                                            c-36.7,0-66.4-29.7-66.4-66.4v-292.3C-2265.6-240.9-2235.9-270.6-2199.2-270.6z"/>
+                                        <path id="_30" class="st1" d="M-2058.3-11.8h-64.9l-13.3,43.3c-0.4,1.5-1.8,2.6-3.4,2.5h-32.9c-1.9,0-2.5-1-2-3.1l56-161.8
+                                            c0.6-1.7,1.1-3.6,1.7-5.8c0.8-3.1,1.1-6.4,1.1-9.6c-0.1-0.9,0.5-1.8,1.5-2c0.2,0,0.3,0,0.5,0h44.7c1.3,0,2.1,0.5,2.2,1.4l63.9,178
+                                            c0.6,1.9,0,2.8-1.7,2.8h-36.5c-1.3,0.1-2.5-0.7-2.8-2L-2058.3-11.8z M-2113.4-41.7h47.6c-1.1-3.7-5-12.4-6.5-17.1
+                                            s-3.6-8.4-5.2-13.7c-1.7-5.3-3.4-10.7-5.1-16c-1.7-5.3-3.2-10.5-4.7-15.5c-1.4-5-2.7-9.5-3.8-13.6h-0.3c-1.6,7.6-3.6,15.1-5.9,22.5
+                                            c-2.6,8.4-5.3,17-8,25.8C-2108-60.4-2110.8-49.1-2113.4-41.7L-2113.4-41.7z"/>
+                                        <path id="_31" class="st1" d="M-1965-118.8c-5.8,0.2-11.4-2-15.5-6.2c-4-4.3-6.1-10.1-5.9-16c-0.2-5.9,2.1-11.5,6.3-15.6
+                                            c4.2-4,9.8-6.2,15.6-6c5.9-0.3,11.7,1.9,15.9,6c3.9,4.2,6,9.8,5.8,15.6c0.2,5.9-1.9,11.7-6,16C-1953.1-120.8-1959-118.5-1965-118.8
+                                            z M-1983.2,31.3V-97.1c0-1.7,0.7-2.5,2.2-2.5h31.9c1.5,0,2.2,0.8,2.2,2.5V31.3c0,1.9-0.7,2.8-2.2,2.8h-31.6
+                                            C-1982.3,34.1-1983.2,33.2-1983.2,31.3z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h5>Ver más...</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/IsNorthFace/Juego_de_Piedra-Papel-y-Tijera">
+                    <div class="proyectos" data-aos="fade-right">
+                        <img src="./Proyecto-Imagenes/Screenshot 2023-09-02 132232-1.png" alt="foto-PPT">
+                        <div class="container_text">
+                            <h5>Proyecto de Piedra Papel y Tijera</h5>
+                            <div class="container_icons-work" data-aos="fade-up">
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"/><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 80 80" width="48px" height="48px"><path fill="#dcd5f2" d="M40,61.5C18.22,61.5,0.5,51.855,0.5,40S18.22,18.5,40,18.5S79.5,28.145,79.5,40S61.78,61.5,40,61.5z"/><path fill="#8b75a1" d="M40,19c21.505,0,39,9.421,39,21S61.505,61,40,61S1,51.579,1,40S18.495,19,40,19 M40,18 C17.909,18,0,27.85,0,40s17.909,22,40,22s40-9.85,40-22S62.091,18,40,18L40,18z"/><path fill="#36404d" d="M25.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C29.023 43.074 27.395 44 21.57 44h-4.14l1.75-10H25.112M25.112 32H17.5L14 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C32.842 35.096 29.436 32 25.112 32L25.112 32zM61.112 34c1.725 0 3.214.622 4.084 1.706.749.934.981 2.171.668 3.577C65.023 43.074 63.395 44 57.57 44h-4.14l1.75-10H61.112M61.112 32H53.5L50 52h2l1.056-6h4.515c5.863 0 9.053-.905 10.246-6.284C68.842 35.096 65.436 32 61.112 32L61.112 32z"/><g><path fill="#36404d" d="M49.072,33.212C48.193,32.348,46.644,32,44.334,32h-5.538L40,26h-2.1L34,46h1.99l2.388-12h0.419 h5.538c2.338,0,3.094,0.4,3.335,0.637c0.343,0.338,0.424,1.226,0.217,2.363l-1.767,9h2.106l1.626-8.63 C50.199,35.462,49.936,34.062,49.072,33.212z"/></g></svg>
+                            </div>
+                            <h5>Ver más...</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./Pages/pag-2-blopa.html">
+                    <div class="proyectos" data-aos="fade-left">
+                        <img src="./Proyecto-Imagenes/Blopa.png" alt="foto-Blopa">
+                        <div class="container_text">
+                            <h5>"Ilustración de Blopa"</h5>
+                            <div class="container_icons-work" data-aos="fade-up">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{fill:#330000;}
+                                        .st1{fill:#FF9A00;}
+                                    </style>
+                                    <g id="Illustrator" transform="translate(2303 308)">
+                                        <path id="_16" class="st0" d="M-2199.2-270.6h292.3c36.7,0,66.4,29.7,66.4,66.4V88.2c0,36.7-29.7,66.4-66.4,66.4h-292.3
+                                            c-36.7,0-66.4-29.7-66.4-66.4v-292.3C-2265.6-240.9-2235.9-270.6-2199.2-270.6z"/>
+                                        <path id="_30" class="st1" d="M-2058.3-11.8h-64.9l-13.3,43.3c-0.4,1.5-1.8,2.6-3.4,2.5h-32.9c-1.9,0-2.5-1-2-3.1l56-161.8
+                                            c0.6-1.7,1.1-3.6,1.7-5.8c0.8-3.1,1.1-6.4,1.1-9.6c-0.1-0.9,0.5-1.8,1.5-2c0.2,0,0.3,0,0.5,0h44.7c1.3,0,2.1,0.5,2.2,1.4l63.9,178
+                                            c0.6,1.9,0,2.8-1.7,2.8h-36.5c-1.3,0.1-2.5-0.7-2.8-2L-2058.3-11.8z M-2113.4-41.7h47.6c-1.1-3.7-5-12.4-6.5-17.1
+                                            s-3.6-8.4-5.2-13.7c-1.7-5.3-3.4-10.7-5.1-16c-1.7-5.3-3.2-10.5-4.7-15.5c-1.4-5-2.7-9.5-3.8-13.6h-0.3c-1.6,7.6-3.6,15.1-5.9,22.5
+                                            c-2.6,8.4-5.3,17-8,25.8C-2108-60.4-2110.8-49.1-2113.4-41.7L-2113.4-41.7z"/>
+                                        <path id="_31" class="st1" d="M-1965-118.8c-5.8,0.2-11.4-2-15.5-6.2c-4-4.3-6.1-10.1-5.9-16c-0.2-5.9,2.1-11.5,6.3-15.6
+                                            c4.2-4,9.8-6.2,15.6-6c5.9-0.3,11.7,1.9,15.9,6c3.9,4.2,6,9.8,5.8,15.6c0.2,5.9-1.9,11.7-6,16C-1953.1-120.8-1959-118.5-1965-118.8
+                                            z M-1983.2,31.3V-97.1c0-1.7,0.7-2.5,2.2-2.5h31.9c1.5,0,2.2,0.8,2.2,2.5V31.3c0,1.9-0.7,2.8-2.2,2.8h-31.6
+                                            C-1982.3,34.1-1983.2,33.2-1983.2,31.3z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h5>Ver más...</h5>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./Pages/pag-1-logos.html">
+                    <div class="proyectos" data-aos="fade-right">
+                        <img src="./Proyecto-Imagenes/Fondo-Iconos1.png" alt="fotos-proyec-ai">
+                        <div class="container_text">
+                            <h5>"Logotipos"</h5>
+                            <div class="container_icons-work" data-aos="fade-up">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{fill:#330000;}
+                                        .st1{fill:#FF9A00;}
+                                    </style>
+                                    <g id="Illustrator" transform="translate(2303 308)">
+                                        <path id="_16" class="st0" d="M-2199.2-270.6h292.3c36.7,0,66.4,29.7,66.4,66.4V88.2c0,36.7-29.7,66.4-66.4,66.4h-292.3
+                                            c-36.7,0-66.4-29.7-66.4-66.4v-292.3C-2265.6-240.9-2235.9-270.6-2199.2-270.6z"/>
+                                        <path id="_30" class="st1" d="M-2058.3-11.8h-64.9l-13.3,43.3c-0.4,1.5-1.8,2.6-3.4,2.5h-32.9c-1.9,0-2.5-1-2-3.1l56-161.8
+                                            c0.6-1.7,1.1-3.6,1.7-5.8c0.8-3.1,1.1-6.4,1.1-9.6c-0.1-0.9,0.5-1.8,1.5-2c0.2,0,0.3,0,0.5,0h44.7c1.3,0,2.1,0.5,2.2,1.4l63.9,178
+                                            c0.6,1.9,0,2.8-1.7,2.8h-36.5c-1.3,0.1-2.5-0.7-2.8-2L-2058.3-11.8z M-2113.4-41.7h47.6c-1.1-3.7-5-12.4-6.5-17.1
+                                            s-3.6-8.4-5.2-13.7c-1.7-5.3-3.4-10.7-5.1-16c-1.7-5.3-3.2-10.5-4.7-15.5c-1.4-5-2.7-9.5-3.8-13.6h-0.3c-1.6,7.6-3.6,15.1-5.9,22.5
+                                            c-2.6,8.4-5.3,17-8,25.8C-2108-60.4-2110.8-49.1-2113.4-41.7L-2113.4-41.7z"/>
+                                        <path id="_31" class="st1" d="M-1965-118.8c-5.8,0.2-11.4-2-15.5-6.2c-4-4.3-6.1-10.1-5.9-16c-0.2-5.9,2.1-11.5,6.3-15.6
+                                            c4.2-4,9.8-6.2,15.6-6c5.9-0.3,11.7,1.9,15.9,6c3.9,4.2,6,9.8,5.8,15.6c0.2,5.9-1.9,11.7-6,16C-1953.1-120.8-1959-118.5-1965-118.8
+                                            z M-1983.2,31.3V-97.1c0-1.7,0.7-2.5,2.2-2.5h31.9c1.5,0,2.2,0.8,2.2,2.5V31.3c0,1.9-0.7,2.8-2.2,2.8h-31.6
+                                            C-1982.3,34.1-1983.2,33.2-1983.2,31.3z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <h5>Ver más...</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+        <section class="section_contacto" id="contacto">
+            <h2>Contacto</h2>
+        
+            <form target="_blank" action="https://formspree.io/f/mzblrowz" method="POST" class="container_formulario">
+                <div class="form_group">
+                    <label for="nombre">Nombre</label>
+                    <input type="name" id="nombre" name="nombre">
+                </div>
+                
+                <div class="form_group">
+                    <label for="mail">Correo</label>
+                    <input type="mail" name="mail" id="mail" name="correo">
+                </div>
+
+                <div class="form_group">
+                    <label for="mensajes">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono">
+               </div>
+        
+               <div class="form_group">
+                    <label for="mensajes">Mensaje</label>
+                    <textarea name="mensaje" id="Mensaje" cols="23" rows="2"></textarea>
+               </div>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

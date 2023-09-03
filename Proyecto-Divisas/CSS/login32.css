@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../image/Dolares.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: #FFF;
+}
+
+.formulario_conteiner{
+    text-align: center;
+    padding: 2rem 3rem;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px #222;
+    border-radius: 5%;
+    height: auto;
+}
+
+.conteiner_cambio{
+    background-color: rgb(74, 156, 44);
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px ;
+}
+
+input[type="number"]{
+    display: block;
+    height: 35px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+select{
+    height: 35px;
+}
+
+.resultado_conteiner{
+    background-color: rgb(21, 109, 11);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.medidas{
+    margin-top: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="./imagenes/siete.png">
+    <link rel="stylesheet" href="./CSS/slot-style.css">
+    <title>Maquina Traga Monedas</title>
+</head>
+<body>
+    <div class="container_todo">
+        <div class="container_padre">
+            <section class="container_iconos-palanca">
+                <div class="container_iconos" id="inicio">
+                    <img class="imagen1" src="./imagenes/diamond.png" alt="Icono 1">
+                    <img class="imagen2" src="./imagenes/bell.png" alt="Icono 2">
+                    <img class="imagen3" src="./imagenes/siete.png" alt="Icono 3">
+            
+                    <img class="Gif1" id="gif1" src="gif/gifFinalFinal.gif" style="display: none;">
+                    <img class="Gif2" id="gif2" src="gif/gifFinalFinal.gif" style="display: none;">
+                    <img class="Gif3" id="gif3" src="gif/gifFinalFinal.gif" style="display: none;">
+                </div>
+            </section>
+        </div>
+
+        <div class="reglas">
+            <button onclick="openModal()" class="modal-open"><div><img src="./imagenes/Coin.png" alt="coin-img" draggable="false"></div></button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <img src="./imagenes/Background-Instrucciones.png" alt="modal-background-img">
+            <h2 onclick="closeModal()" class="close">X</h2>
+            <div class="modal-content" draggable="false">
+                <p>
+                    Para poder jugar en el Slot, el usuario debera de clickear en la palanca para activar la animación de giro de los iconos.
+                    <br>
+                    Una vez finalizada la animación los iconos deberan de coincidir 3 veces para poder ganar de lo contrario se tendra que volver a tirar.
+                    <br>
+                    Las Recompensas son:
+                    <br>
+                    Triple Diamantes = 3 Fichas.
+                    <br>
+                    Triple Siete = 2 Fichas.
+                    <br>
+                    Triple Campana = 1 Ficha.
+                </p>
+            </div>
+        </div>
+        <script src="./JS/botones.js"></script>
+
+        <div class="container_palanca">
+            <img src="./imagenes/Palanca-Arriba.png" class="boton-palanca" id="boton" alt="">
+            <img src="./imagenes/Palanca-Abajo.png" id="palancaAbajo" alt="" style="display: none;">
+        </div>
+    </div>
+
+    <div id="mensajeContainer"></div>
+
+    <script src="./JS/Slotisa.js"></script>
+</body>
+</html>
