@@ -393,7 +393,7 @@ input[type="submit"]:hover{
         background-color: var(--secundary-color);
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         gap: 1rem;
-        width: 100%;
+        width: 40%;
         opacity: 0;
         visibility: hidden;
     }
